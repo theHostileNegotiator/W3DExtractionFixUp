@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "W3DExtractionFixUp": {
+      "commandName": "Project",
+      "commandLineArgs": "dump"
+    }
+  }
+}
