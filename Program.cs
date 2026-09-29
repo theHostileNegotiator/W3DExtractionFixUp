@@ -376,6 +376,8 @@ namespace W3DExtractionFixUp
                 
                     builder.Replace(" />", "/>");
                     builder.Replace("utf-16", "UTF-8");
+					// Remove Comma Decimal Separator
+                    builder.Replace(",", "");
                     // Not have self closing empty elements
                     builder.Replace("<Includes/>", "<Includes></Includes>");
                     builder.Replace("<Channels/>", "<Channels></Channels>");
@@ -529,6 +531,8 @@ namespace W3DExtractionFixUp
 
                 builder.Replace(" />", "/>");
                 builder.Replace("utf-16", "UTF-8");
+				// Remove Comma Decimal Separator
+                builder.Replace(",", "");
                 // Not have self closing elements
                 builder.Replace("<Includes/>", "<Includes></Includes>");
                 builder.Replace("<Channels/>", "<Channels></Channels>");

@@ -20,6 +20,10 @@ the animation.
 * GBMEDBAYD2_SKN: In Kane's Wrath, the Low LOD version has an animation matching ID
 * AUHEALTHTENT_SKN: In Red Alert 3 and Uprising, the model has an animation matching ID
 * BB_TUNA_SKN: In Red Alert 3 and Uprising, the model has an animation matching ID
+* GDI_DROPPOD_SML_SKN: In Tiberian Twilight, the model has an animation matching ID
+* TB_PRSTRCTRE_SPIKE_SKN: In Tiberian Twilight, the model has an animation matching ID
+* GUMAMM_SKN: In Tiberian Twilight, the model has an animation matching ID
+* GUORCA_SKN: In Tiberian Twilight, the model has an animation matching ID
 
 Kane's Wrath has a texture with ID HC_AUMillipedeBody that is only present in Low LOD Static Stream. It is likely that the reason it's there is due to the 
 Low LOD model for the Mechapede being the only asset that references that texture. HC_AUMillipedeBody should be placed in the root dump folder with the rest of the 
